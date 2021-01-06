@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Badge from './components/Badge';
+import BadgeNew from './pages/BadgeNew.js';
 
 const container = document.getElementById('app');
 
-ReactDOM.render(<Badge 
-    firstName='Marcela'
-    lastName='Neira'
-    title='Web Development'
-    twitter='marcela.code'/>,container)
+ReactDOM.render(<BadgeNew/>,container)

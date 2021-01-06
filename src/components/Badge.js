@@ -1,6 +1,7 @@
 import React from 'react';
 import confLogo from '../images/badge-header.svg';
 import './styles/styles.css';
+import './styles/Badge.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../global.css';
 
@@ -14,13 +15,17 @@ class Badge extends React.Component{
             </div>
             <div className="badge_section-name">
                 <img className="badge_avatar" src="http://www.gravatar.com/avartar?d=identicon" alt="" />
-                <h1>{this.props.firstName} <br /> Neira</h1>
+                <h1>
+                    {this.props.firstName} <br /> {this.props.lastName} 
+                </h1>
             </div>
             <div className="badge_section-info">
-                <h3>Desarrrolladora Web</h3>
-                <div>@marcela.code</div>
-                <p>#platziconf</p>
+                <h3>{this.props.title} </h3>
+                <div>@{this.props.twitter}</div>
+                
             </div>
+            <div className="Badge__footer">#platziconf</div>
+            
         </div>)
     }
 }
