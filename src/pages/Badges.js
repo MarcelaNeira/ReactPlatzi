@@ -23,7 +23,7 @@ class Badges extends React.Component{
               lastName: "Rodriguez",
               email: "Ilene66@hotmail.com",
               jobTitle: "Human Research Architect",
-              twitter: "ajorRodriguez61545",
+              twitter: "majorRodriguez61545",
               avatarUrl: "https://www.gravatar.com/avatar/d57a8be8cb9219609905da25d5f3e50a?d=identicon"
             },
             {
