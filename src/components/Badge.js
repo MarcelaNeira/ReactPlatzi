@@ -14,13 +14,13 @@ class Badge extends React.Component{
                 <img src={confLogo} alt="Logo de la conferencia" />
             </div>
             <div className="badge_section-name">
-                <img className="badge_avatar" src="http://www.gravatar.com/avartar?d=identicon" alt="" />
+                <img className="badge_avatar" src="" alt="" />
                 <h1>
                     {this.props.firstName} <br /> {this.props.lastName} 
                 </h1>
             </div>
             <div className="badge_section-info">
-                <h3>{this.props.title} </h3>
+                <h3>{this.props.jobTitle} </h3>
                 <div>@{this.props.twitter}</div>
                 
             </div>
