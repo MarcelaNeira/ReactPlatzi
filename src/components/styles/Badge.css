@@ -1,5 +1,5 @@
 .Badge {
-    background: #FFFFFF;
+    background: #fb8b24;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
     border-radius: 8px 8px 8px 8px;
     overflow: hidden;
@@ -9,7 +9,7 @@
   .Badge__header {
     padding: 0.5rem 0;
     height: 80px;
-    background: #1B1B25;
+    background: #251b1b;
     display: flex;
     justify-content: center;
   }
@@ -27,7 +27,7 @@
     justify-content: center;
     align-items: center;
     padding: 0.5rem 0;
-    background: #F4F4F7;
+    background: #fb8b24;
   }
   
   
